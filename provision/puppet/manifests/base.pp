@@ -17,7 +17,7 @@ class compiler {
   Package { ensure => "installed"}
 
   $dependencies = [
-    "flex", "g++", "automake", "autoconf", "make"
+    "flex", "g++", "automake", "autoconf", "make", "bison"
   ]
 
   package { $dependencies:
